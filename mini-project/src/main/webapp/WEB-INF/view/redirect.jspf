@@ -1,0 +1,16 @@
+<footer>
+	<div id="redirect_links">
+	<ol>
+		<li><a href="/logout.do">logout</a></li>
+		<li><a href="/billGeneration.do">BillGenerate</a></li>
+		<li><a href="/billView.do">BillView</a></li>
+		<li><a href="/customerView.do">CustomerView</a></li>
+		<li><a href="/productView.do">ProductView</a></li>
+	</ol>
+</div>
+</footer>
+<script type = "text/javascript" >  
+    function preventBack() { window.history.forward(); }  
+    setTimeout("preventBack()", 0);  
+    window.onunload = function () { null };  
+</script> 
